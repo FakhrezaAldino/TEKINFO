@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang ="en">
+	<head>
+		<title>Percabangan</title>
+	</head>
+	<body>
+		<script>
+			var nilai = prompt("Inputkan nilai akhir : ");
+			var grade = "";
+			var ket   = "";
+			
+			if(nilai >= 90) {
+			grade = "A" 
+			ket = " Sangat Keren"
+			}
+			else if(nilai >= 80){
+			grade = "B+" 
+			ket = " Keren"
+			}
+			else if(nilai >= 70){
+			grade = "B"  
+			ket = " Bagus"
+			}
+			else if(nilai >= 60){
+			grade = "C+" 
+			ket = " Sangat Cukup"
+			}
+			else if(nilai >= 50){
+			grade = "C"  
+			ket = " Cukup"
+			}
+			else if(nilai >= 40){
+			grade = "D"  
+			ket = " Kurang Bagus"
+			}
+			else if(nilai >= 30){
+			grade = "E"  
+			ket = " Sangat Kurang Bagus"
+			}
+			else {
+			grade = "F" 
+			ket = "Mari Membangun Niat Belajar"
+			}
+			
+			document.write("<p>Grade anda " + grade + ket +"</p>" );
+		</script>
+	</body>
+</html>
